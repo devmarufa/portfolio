@@ -1,0 +1,309 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .banner {
+  padding-top: 115px;
+ }
+ .banner h1 {
+  font-size: 45px;
+ }
+ .banner_text {
+  padding-bottom: 23px;
+ }
+ .highlight h3 {
+  font-size: 22px;
+ }
+ .p_two {
+  font-size: 15px;
+ }
+ .h_part_one {
+  padding-top: 58px;
+  font-size: 30px;
+ }
+ .about_header p {
+  font-size: 18px;
+ }
+ .about_header {
+  padding: 87px 0px 30px 0px;
+ }
+ #about img {
+  width: 320px;
+  height: 320px;
+  margin-top: 20px;
+  margin-left: 9px;
+ }
+ #about h3 {
+  font-size: 22px;
+ }
+ #about .img::before {
+  width: 310px;
+  height: 310px;
+ }
+ .p_text {
+  font-size: 19px;
+  padding-bottom: 35px;
+ }
+ #service .one {
+  padding: 30px 30px 9px 30px;
+ }
+ #service .one h5 {
+  font-size: 18px;
+  padding: 15px 0px 0px 0px;
+ }
+ .reveiw {
+  padding: 36px 20px 20px 40px;
+ }
+ .reveiw h4 {
+  margin: 0px 0px 2px 0px;
+ }
+ .reveiw p {
+  padding: 7px 0px 0px 0px;
+  font-size: 15px;
+ }
+ .reveiw img {
+  bottom: 16px;
+  right: 0px;
+ }
+ .reveiw a {
+  padding: 5px 10px 5px 10px;
+ }
+ .tes_icon br {
+  display: none;
+ }
+ #Subscribe form input {
+  font-size: 19px;
+ }
+ #Subscribe .sub input {
+  padding: 10px 25px 8px 25px;
+ }
+}
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+ .banner {
+  padding-top: 107px;
+ }
+ .banner h1 {
+  font-size: 34px;
+ }
+ .banner_text {
+  padding-bottom: 24px;
+ }
+ .highlight h3 {
+  font-size: 18px;
+ }
+ .highlight p {
+  padding: 0px;
+  font-size: 15px;
+ }
+ .h_part_one {
+  padding-top: 50px;
+  font-size: 30px;
+ }
+ .about_header p {
+  font-size: 17px;
+ }
+ #about .img::before {
+  width: 90%;
+ }
+ #about .img img {
+  width: 495px;
+  height: 370px;
+ }
+ .p_text {
+  font-size: 17px;
+ }
+ #service .one:hover {
+  box-shadow: 0px 0px 21px 5px #479bf924;
+ }
+ .test_heading p {
+  font-size: 17px;
+ }
+ #testimonial .client_image {
+  display: none;
+ }
+ .tes_icon br {
+  display: none;
+ }
+ .reveiw {
+  box-shadow: none;
+  border: 1px solid #efefef;
+  padding: 30px 46px 13px 41px;
+ }
+ .reveiw img {
+  bottom: 19px;
+  right: 28px;
+ }
+ .reveiw a {
+  color: #fff;
+  background: #2f91ff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50%;
+ }
+ .slick-dots {
+  bottom: 19px;
+  margin-right: 35.333%
+ }
+ #Subscribe .p_one {
+  font-size: 19px;
+ }
+ #Subscribe .sub input {
+  padding: 8px 25px 8px 25px;
+ }
+}
+/*extra small devices (landscape phones,320px and up)*/
+@media (min-width: 0px) and (max-width: 575px) {
+ .banner {
+  padding-top: 110px;
+ }
+
+ .banner .p_text {
+  font-size: 15px;
+  padding: 0px;
+ }
+
+ .banner h1 {
+  font-size: 26px;
+ }
+
+ .banner_text {
+  padding-bottom: 74px;
+ }
+
+ .p_two {
+  font-size: 15px;
+ }
+
+ .highlight h3 {
+  font-size: 20px;
+ }
+
+ .h_part_one {
+  padding-top: 47px;
+  font-size: 23px;
+ }
+
+ .about_header {
+  padding: 87px 0px 0px 0px;
+ }
+
+ .about_header p {
+  font-size: 15px;
+  margin: 0px;
+ }
+
+ #about .img::before {
+  display: none;
+ }
+
+ #about .img img {
+  margin-top: px;
+  margin-left: 4px;
+  width: 100%;
+  height: 84%;
+ }
+
+ #about h3 {
+  font-size: 23px;
+ }
+
+ #about .p_two {
+  margin: 0px;
+ }
+
+ #about button {
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  margin: 10px 0px 0px 0px;
+ }
+
+ .p_text {
+  font-size: 15px;
+  padding-bottom: 20px;
+ }
+
+ #service .one:hover {
+  box-shadow: none;
+  border: 1px solid #5da7fb4a;
+ }
+
+ .test_heading p {
+  font-size: 15px;
+ }
+
+ #testimonial .client_image {
+  display: none;
+ }
+
+ #testimonial .reveiw {
+  padding: 20px 10px 13px 10px;
+  box-shadow: none;
+  border: 1px solid #ededed;
+ }
+
+ #testimonial .reveiw p {
+  padding: 8px 0px 0px 0px;
+  font-size: 15px;
+ }
+
+ #testimonial .reveiw a {
+  padding: 5px 10px 5px 10px;
+ }
+
+ #testimonial .tes_icon br {
+  display: none;
+ }
+
+ #testimonial .reveiw img {
+  right: 0px;
+  bottom: 8px;
+ }
+
+ .slick-dots {
+  bottom: 21px;
+  right: 72px;
+ }
+
+ .slick-dots li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  margin: 0px 5px 0px 0px;
+ }
+
+ #Subscribe form {
+  padding: 5px 0px 6px 10px;
+ }
+
+ #Subscribe form input {
+  font-size: 15px;
+ }
+
+ #Subscribe .sub input {
+  padding: 5px 9px 7px 9px;
+ }
+}
+/*menu toggle media css strats here*/
+
+@media only screen and (max-width: 768px) {
+.navbar-light .navbar-toggler{
+  border: none;
+ }
+ .navbar-collapse {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+ }
+ #navbar ul li{
+  margin: 0px 0px 10px 0px;
+ }
+ #navbar ul li a{
+  padding: 0px;
+ }
+}
+/*menu toggle media css ends here*/
