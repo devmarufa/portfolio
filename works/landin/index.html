@@ -1,310 +1,308 @@
-<!DOCTYPE html>
-<html lang="en">
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1200px) {}
 
-    <!-- Title -->
-    <title>Marufa</title>
-    <!-- Favicon -->
-    <link href="favicon.png" type="image/png" rel="icon">
-    <link rel="stylesheet" href="main.css">
+/*Medium devices (tablets, 768px and up)*/
 
-</head>
+@media (min-width: 768px) and (max-width: 991px) {
+ .banner {
+  padding-top: 115px;
+ }
+ .banner h1 {
+  font-size: 45px;
+ }
+ .banner_text {
+  padding-bottom: 23px;
+ }
+ .highlight h3 {
+  font-size: 22px;
+ }
+ .p_two {
+  font-size: 15px;
+ }
+ .h_part_one {
+  font-size: 30px;
+ }
+ .about_header p {
+  font-size: 18px;
+ }
+ .about_header {
+  padding: 30px 0px 30px 0px;
+ }
+ #about img {
+  width: 320px;
+  height: 320px;
+  margin-top: 20px;
+  margin-left: 9px;
+ }
+ #about h3 {
+  font-size: 22px;
+ }
+ #about .img::before {
+  width: 310px;
+  height: 310px;
+ }
+ .p_text {
+  font-size: 19px;
+  padding-bottom: 35px;
+ }
+ #service .one {
+  padding: 30px 30px 9px 30px;
+ }
+ #service .one h5 {
+  font-size: 18px;
+  padding: 15px 0px 0px 0px;
+ }
+ .reveiw {
+  padding: 36px 20px 20px 40px;
+ }
+ .reveiw h4 {
+  margin: 0px 0px 2px 0px;
+ }
+ .reveiw p {
+  padding: 7px 0px 0px 0px;
+  font-size: 15px;
+ }
+ .reveiw img {
+  bottom: 16px;
+  right: 0px;
+ }
+ .reveiw a {
+  padding: 5px 10px 5px 10px;
+ }
+ .tes_icon br {
+  display: none;
+ }
+ #Subscribe form input {
+  font-size: 19px;
+ }
+ #Subscribe .sub input {
+  padding: 10px 25px 8px 25px;
+ }
+}
+/*Small devices (landscape phones, 576px and up)*/
 
-<body id="body" data-spy="scroll" data-target="#menu-list">
+@media (min-width: 576px) and (max-width: 767px) {
+ .banner {
+  padding-top: 107px;
+ }
+ .banner h1 {
+  font-size: 34px;
+ }
+ .banner_text {
+  padding-bottom: 24px;
+ }
+ .highlight h3 {
+  font-size: 18px;
+ }
+ .highlight p {
+  padding: 0px;
+  font-size: 15px;
+ }
+ .h_part_one {
+  padding-top: 50px;
+  font-size: 30px;
+ }
+ .about_header p {
+  font-size: 17px;
+ }
+ #about .img::before {
+  width: 90%;
+ }
+ #about .img img {
+  width: 495px;
+  height: 370px;
+ }
+ .p_text {
+  font-size: 17px;
+ }
+ #service .one:hover {
+  box-shadow: 0px 0px 21px 5px #479bf924;
+ }
+ .test_heading p {
+  font-size: 17px;
+ }
+ #testimonial .client_image {
+  display: none;
+ }
+ .tes_icon br {
+  display: none;
+ }
+ .reveiw {
+  box-shadow: none;
+  border: 1px solid #efefef;
+  padding: 30px 46px 13px 41px;
+ }
+ .reveiw img {
+  bottom: 19px;
+  right: 28px;
+ }
+ .reveiw a {
+  color: #fff;
+  background: #2f91ff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50%;
+ }
+ .slick-dots {
+  bottom: 19px;
+  margin-right: 35.333%
+ }
+ #Subscribe .p_one {
+  font-size: 19px;
+ }
+ #Subscribe .sub input {
+  padding: 8px 25px 8px 25px;
+ }
+}
+/*extra small devices (landscape phones,320px and up)*/
+@media (min-width: 0px) and (max-width: 575px) {
+ .banner {
+  padding-top: 110px;
+ }
 
-    <!--  start page loader  -->
+ .banner .p_text {
+  font-size: 15px;
+  padding: 0px;
+ }
 
-    <div id="preloader">
-        <div class="scroll-static"></div>
-    </div>
+ .banner h1 {
+  font-size: 26px;
+ }
 
-    <!--  end page loader  -->
+ .banner_text {
+  padding-bottom: 74px;
+ }
 
-    <!-- begin of main-wrapper -->
-    <div class="main-wrapper">
-        <!-- begin of navbar -->
-        <div class="nav-bar">
-            <!-- begin of scroll-indicator -->
-            <div class="scroll-indicator"></div>
-            <nav>
-                <ul id="menu-list">
-                    <li class="nav-item"><a class="active nav-link" href="#body" data-text="Home">
-                            <span>01</span>Home
-                        </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about" data-text="About">
-                            <span>02</span>About
-                        </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services" data-text="Services">
-                            <span>03</span>Skillset
-                        </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#works" data-text="Projects">
-                            <span>05</span>Projects
-                        </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact" data-text="Contact">
-                            <span>06</span>Contact
-                        </a></li>
-                </ul>
-            </nav>
-            <div class="nav-footer">
-                <p class="nav-copyright">&copy; Copyright 2020<br>All rights reserved</p>
-            </div>
-        </div>
-        <!-- end of navbar -->
-        <!-- begin of main-content -->
-        <div class="main-content">
-            <!-- begin of header -->
-            <header>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-7">
-                            <!-- logo -->
-                            <div class="logo">
-                                <a href="index.html">DM</a>
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <a href="mailto:marufajhuma1@gmail.com" class="default-btn header-action-btn"><i class="ti-agenda"></i> Contact</a>
-                            <div class="default-btn menu-btn">
-                                <i class="ti-menu"></i>
-                                <i class="ti-close"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <!-- end of header -->
+ .p_two {
+  font-size: 15px;
+ }
 
-            <!-- begin of home-wrapper -->
-            <div class="home-wrapper">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-md-5 col-sm-5">
-                            <div class="hero-img wow fadeIn" data-wow-delay=".2s">
-                                <div class="shape"></div>
-                                <!-- hero image -->
-                                <img class="img-fluid" src="user.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-sm-7">
-                            <div class="hero-content">
-                                <h2 class="intro-name">
-                                    <span class="wow slideInLeft">Hey, I am</span>
-                                    <span class="wow slideInLeft" data-wow-delay=".2s">Marufa</span>
-                                </h2>
-                                <p>
-                                    <span class="wow slideInLeft" data-wow-delay=".5s">Website Designer. Based in Bangladesh.</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end of home-wrapper -->
+ .highlight h3 {
+  font-size: 20px;
+ }
 
-            <!-- begin of about-wrapper -->
-            <div id="about" class="wrapper about-wrapper">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- section heading -->
-                            <h3 class="wrapper-heading">About Me</h3>
+ .h_part_one {
+  padding-top: 47px;
+  font-size: 23px;
+ }
 
-                            <h4 class="about-sub-heading">I am a Freelancer</h4>
-                            <p class="about-text">Working as a Front-end-developer</p>
+ .about_header {
+  padding: 87px 0px 0px 0px;
+ }
 
-                            <!-- social profile links -->
-                            <div class="social-links">
-                                <span>I am avilable on</span>
-                                <ul>
-                                    <li><a href="https://www.github.com/devmarufa/" target="_blank" data-text="git"><i class="ti-github"></i></a></li>
-                                    <li><a href="https://www.facebook.com/devmarufa/" target="_blank" data-text="fa"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="https://www.twitter.com/devmarufa/" target="_blank" data-text="tw"><i class="ti-twitter"></i></a></li>
-                                    <li><a href="https://www.instagram.com/devmarufa/" target="_blank" data-text="ig"><i class="ti-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end of about-wrapper -->
+ .about_header p {
+  font-size: 15px;
+  margin: 0px;
+ }
 
-            <!-- begin of service-wrapper -->
-            <div id="services" class="wrapper service-wrapper">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- section heading -->
-                            <h3 class="wrapper-heading">Skillset</h3>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <!-- service item -->
-                            <div class="service-item">
-                                <span class="ti-ruler-pencil"></span>
-                                <h4>Web Elements</h4>
-                                <p>HTML5, CSS3, Jquery, Bootstrap4, WordPress</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <!-- service item -->
-                            <div class="service-item">
-                                <span class="ti-bar-chart-alt"></span>
-                                <h4>Graphics Elements</h4>
-                                <p>Adobe Photoshop, Adobe Illustrator</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <!-- service item -->
-                            <div class="service-item">
-                                <span class="ti-hummer"></span>
-                                <h4>Digital Marketing</h4>
-                                <p>Social Media Management, Hubspot, Mailchimp</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end of service-wrapper -->
+ #about .img::before {
+  display: none;
+ }
 
+ #about .img img {
+  margin-top: px;
+  margin-left: 4px;
+  width: 100%;
+  height: 84%;
+ }
 
-            <!-- begin of works-wrapper -->
-            <div id="works" class="wrapper works-wrapper">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- section heading -->
-                            <h3 class="wrapper-heading">Recent Works</h3>
-                        </div>
-                        <div class="col-md-12">
-                            <!-- work filter buttons -->
-                            <div class="filter-buttons">
-                                <button class="active" data-filter="*">Everything</button>
-                                <button data-filter=".web">Web</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row zoom-gallery">
-                        <!-- work single item  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 web">
-                            <div class="work-single-item">
-                                <a class="zoom-image" href="work-01.jpg">
-                                    <div class="tilt-wrap">
-                                        <img class="img-fluid" src="work-01.jpg" alt="">
-                                        <h6>Eventa</h6>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- work single item  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 web">
-                            <div class="work-single-item">
-                                <a class="zoom-image" href="work-02.jpg">
-                                    <div class="tilt-wrap">
-                                        <img class="img-fluid" src="work-02.jpg" alt="">
-                                        <h6>Law office</h6>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- work single item  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 web">
-                            <div class="work-single-item">
-                                <a class="zoom-image" href="work-03.jpg">
-                                    <div class="tilt-wrap">
-                                        <img class="img-fluid" src="work-03.jpg" alt="">
-                                        <h6>Petclub</h6>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- work single item  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 web">
-                            <div class="work-single-item">
-                                <a class="zoom-image" href="work-04.jpg">
-                                    <div class="tilt-wrap">
-                                        <img class="img-fluid" src="work-04.jpg" alt="">
-                                        <h6>Landin</h6>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- work single item  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 web">
-                            <div class="work-single-item">
-                                <a class="zoom-image" href="work-05.jpg">
-                                    <div class="tilt-wrap">
-                                        <img class="img-fluid" src="work-05.jpg" alt="">
-                                        <h6>socale</h6>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- work single item  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 web">
-                            <div class="work-single-item">
-                                <a class="zoom-image" href="work-06.jpg">
-                                    <div class="tilt-wrap">
-                                        <img class="img-fluid" src="work-06.jpg" alt="">
-                                        <h6>chaty</h6>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end of works-wrapper -->
+ #about h3 {
+  font-size: 23px;
+ }
 
-            <!-- begin of contact-wrapper -->
-            <div id="contact" class="wrapper contact-wrapper">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 text-center col-md-12">
-                            <div class="contact-details">
-                                <h4>Get in Touch</h4>
-                                <p>I am happy to answer any questions you may have, please contact me anytime</p>
-                            </div>
-                            <div class="contact-info">
-                                <a href="mailto:marufajhuma1@gmail.com">
-                                    <p class="d-inline-block"><span class="ti-email"></span>Marufajhuma1@gmail.com</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end of contact-wrapper -->
+ #about .p_two {
+  margin: 0px;
+ }
 
-            <!-- begin of contact-wrapper -->
-            <footer class="wrapper footer-wrapper">
-                <div class="container-fluid">
-                    <div class="col-md-12 text-center">
-                        <div class="footer-social">
-                            <a href="https://www.github.com/devmarufa/" target="_blank">Github</a>
-                            <a href="https://www.facebook.com/devmarufa/" target="_blank">Facebook</a>
-                            <a href="https://www.twitter.com/devmarufa/" target="_blank">Twitter</a>
-                            <a href="https://www.instagram.com/devmarufa/" target="_blank">Instagram</a>
-                        </div>
-                        <p class="footer-copyright">© Copyright 2020</p>
-                    </div>
-                </div>
-            </footer>
-            <!-- end of contact-wrapper -->
+ #about button {
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  margin: 10px 0px 0px 0px;
+ }
 
-            <!-- scroll-to top -->
-            <a class="default-btn scroll-to-top" href="#body"><span class="ti-angle-up "></span></a>
+ .p_text {
+  font-size: 15px;
+  padding-bottom: 20px;
+ }
 
-        </div>
-        <!-- end of main-content -->
-    </div>
-    <!-- end of main-wrapper -->
+ #service .one:hover {
+  box-shadow: none;
+  border: 1px solid #5da7fb4a;
+ }
 
-    <!-- All JS -->
-    <script src="jquery.js"></script>
+ .test_heading p {
+  font-size: 15px;
+ }
 
-</body>
+ #testimonial .client_image {
+  display: none;
+ }
 
-</html>
+ #testimonial .reveiw {
+  padding: 20px 10px 13px 10px;
+  box-shadow: none;
+  border: 1px solid #ededed;
+ }
+
+ #testimonial .reveiw p {
+  padding: 8px 0px 0px 0px;
+  font-size: 15px;
+ }
+
+ #testimonial .reveiw a {
+  padding: 5px 10px 5px 10px;
+ }
+
+ #testimonial .tes_icon br {
+  display: none;
+ }
+
+ #testimonial .reveiw img {
+  right: 0px;
+  bottom: 8px;
+ }
+
+ .slick-dots {
+  bottom: 21px;
+  right: 72px;
+ }
+
+ .slick-dots li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  margin: 0px 5px 0px 0px;
+ }
+
+ #Subscribe form {
+  padding: 5px 0px 6px 10px;
+ }
+
+ #Subscribe form input {
+  font-size: 15px;
+ }
+
+ #Subscribe .sub input {
+  padding: 5px 9px 7px 9px;
+ }
+}
+/*menu toggle media css strats here*/
+
+@media only screen and (max-width: 768px) {
+.navbar-light .navbar-toggler{
+  border: none;
+ }
+ .navbar-collapse {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+ }
+ #navbar ul li{
+  margin: 0px 0px 10px 0px;
+ }
+ #navbar ul li a{
+  padding: 0px;
+ }
+}
+/*menu toggle media css ends here*/
