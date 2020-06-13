@@ -1,0 +1,125 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    header .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0;
+    }
+
+    #banner small,
+    #testimonial img {
+        display: none;
+    }
+
+    header,
+    #testimonial,
+    footer {
+        text-align: center;
+    }
+
+    #testimonial .review .slick-dots {
+        left: 49.4%;
+    }
+
+    #pricing .pricing_part .list-group-item {
+        font-size: 15px;
+    }
+
+    footer {
+        padding: 23px 0px 2px 0px
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    header .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0;
+    }
+
+    #banner small,
+    #banner img,
+    #features img,
+    #testimonial img {
+        display: none;
+    }
+
+    #banner h1 {
+        margin-top: 85px;
+    }
+
+    header,
+    #banner,
+    #features,
+    #testimonial {
+        text-align: center;
+    }
+
+    #testimonial .review .slick-dots {
+        left: 49.4%;
+    }
+
+    #pricing .pricing_part:nth-child(1) {
+        margin-bottom: 25px
+    }
+
+    #pricing {
+        padding-bottom: 90px;
+    }
+
+    footer {
+        padding: 23px 0px 2px 0px
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    header .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0;
+    }
+
+    #banner small,
+    #banner img,
+    #features img,
+    #testimonial img {
+        display: none;
+    }
+
+    #banner h1 {
+        margin-top: 85px;
+    }
+
+    header,
+    #banner,
+    #features,
+    #testimonial {
+        text-align: center;
+    }
+
+    #features .featuree_part {
+        margin-bottom: 25px;
+    }
+
+    #testimonial .review .row {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #testimonial .review .slick-dots {
+        left: 49.4%;
+    }
+
+    #pricing .pricing_part:nth-child(1) {
+        margin-bottom: 25px
+    }
+
+    #subscribe form input {
+        padding: 25px 15px;
+    }
+
+    #subscribe i {
+        margin: 0px 5px;
+    }
+
+    footer {
+        padding: 23px 0px 2px 0px
+    }
+}
+
+/*responsive part css ends here*/

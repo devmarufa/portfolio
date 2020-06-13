@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+p {
+    line-height: 30px;
+}
+
+.font_one {
+    font-family: poppins_reg;
+}
+
+.font_two {
+    font-family: poppins_bold;
+}
+
+.font_three {
+    font-family: poppins_medium;
+}
+
+.font_four {
+    font-family: poppins_italic;
+}
+
+.font_five {
+    font-family: poppins_semibold;
+}
+
+.font_six {
+    font-family: poppins_extrabold;
+}
+
+.common_font_size_one {
+    font-size: 17px;
+}
+
+.common_color_one {
+    color: #348aff;
+}
+
+.common_color_two {
+    color: #696c73;
+}
+
+.common_color_three {
+    color: #323741;
+}
+
+.common_color_four {
+    color: #016dff
+}
+
+.common_background_one {
+    background: #348aff;
+}
+
+.common_background_two {
+    background: #016dff;
+}
+
+.heading {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.heading h2 {
+    font-family: poppins_bold;
+    font-size: 32px;
+    color: #016dff;
+    text-transform: capitalize;
+}
+
+.heading p {
+    font-family: poppins_reg;
+    font-size: 17px;
+    color: #696c73;
+    line-height: 32px;
+}
+
+@font-face {
+    font-family: "poppins_reg";
+    src: url(../webfonts/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(../webfonts/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "poppins_medium";
+    src: url(../webfonts/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "poppins_italic";
+    src: url(../webfonts/fonts/Poppins/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: "poppins_semibold";
+    src: url(../webfonts/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "poppins_extrabold";
+    src: url(../webfonts/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+/*common css ends here*/
+
+header .navbar-toggler span i {
+    line-height: 30px;
+    color: #016dff;
+}
+
+header {
+    box-shadow: 0px 0px 29px 1px #bcd9ff59;
+}
+
+header .navbar {
+    padding: 22px 0px
+}
+
+header .navbar .navbar-brand {
+    font-size: 26px;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0px 25px;
+    transition: 0.3s;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #016dff;
+}
+
+header .navbar .navbar-nav .nav-item.active .nav-link {
+    font-family: "poppins_medium";
+    color: #016dff;
+}
+
+header .navbar .form-inline .btn {
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 0px 17px;
+    transition: 0.2s;
+}
+
+header .navbar .form-inline .btn:hover,
+header .navbar .form-inline .btn:focus {
+    background: #d4e4fa;
+    border: 1px solid #016dff;
+    border-radius: 5px;
+    color: #016dff;
+}
+
+/*header part css ends here*/
+
+#banner .banner_text {
+    margin: auto 0px;
+}
+
+#banner small {
+    font-size: 20px;
+}
+
+#banner small:after {
+    content: "";
+    position: absolute;
+    top: 51px;
+    left: 0;
+    width: 80px;
+    background: #348aff;
+    height: 2px;
+}
+
+#banner h1 {
+    font-size: 45px;
+    line-height: 71px;
+    margin: 32px 0px 22px 0px;
+}
+
+#banner p {
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 55px;
+}
+
+#banner .btn {
+    font-size: 18px;
+    padding: 8px 34px 10px;
+}
+
+#banner img {
+    margin-top: 80px;
+}
+
+/*banner part css ends here*/
+
+#features {
+    padding: 90px 0px 45px 0px;
+}
+
+#features .featuree_part {
+    padding: 40px 30px 20px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 55px;
+}
+
+#features .featuree_part:hover {
+    box-shadow: 0px 0px 45px 2px #016dff21;
+}
+
+#features h3 {
+    font-size: 22px;
+}
+
+#features p {
+    margin-top: 22px
+}
+
+#screenshots {
+    background: #f3f8ff;
+    padding: 90px 0px 100px 0px;
+}
+
+/*features part & screenshots part css ends here*/
+
+#testimonial {
+    padding: 90px 0px 70px 0px;
+}
+
+#testimonial .heading p {
+    margin-top: 15px
+}
+
+#testimonial p:nth-child(2) {
+    margin-bottom: 22px;
+}
+
+#testimonial h3 {
+    font-size: 22px;
+}
+
+#testimonial img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 2px #c4c4c42e;
+}
+
+#testimonial .review {
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 2px #9ac5ff2b;
+    cursor: grab;
+}
+
+#testimonial .review .row {
+    padding: 78px 48px 50px 32px;
+}
+
+#testimonial .review .slick-dots {
+    top: 40px;
+    transform: translate(-50%);
+    left: 7.4%;
+}
+
+#testimonial .review .slick-dots li button:before {
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    background: #016dff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+/*testimonial part css ends here*/
+
+#pricing {
+    padding: 94px 0px 100px 0px;
+    background: url(../image/pricing.png)no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#pricing .pricing_part {
+    border: 1px solid #d1e4ff;
+    padding: 55px 0px 60px 0px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#pricing .pricing_part h3 {
+    font-size: 16px;
+}
+
+#pricing .pricing_part h4 {
+    font-size: 24px;
+    margin: 12px 0px 13px 0px;
+    transition: 0.3s;
+}
+
+#pricing .pricing_part .list-group-item {
+    padding: 5px 0 0 0;
+}
+
+#pricing .pricing_part button {
+    border: 2px solid #696c73;
+    padding: 15px 20px 10px 20px;
+    margin: 35px 0px 0px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#pricing .pricing_part button:hover {
+    color: #fff;
+    background: #016dff;
+    border: 2px solid #016dff;
+}
+
+#pricing .pricing_part:hover h4 {
+    color: #fd738d;
+}
+
+#pricing .pricing_part:hover h3 {
+    color: #016dff;
+}
+
+/*pricing part css ends here*/
+
+#subscribe {
+    padding: 96px 0px;
+}
+
+#subscribe form input {
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+#subscribe form input:focus {
+    box-shadow: none;
+}
+
+#subscribe form button {
+    font-size: 16px;
+    background: #348aff;
+    padding: 9px 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 3%;
+    right: 22px;
+}
+
+#subscribe i {
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid #696c73;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #87898f;
+    transition: 0.3s;
+    margin: 0px 12px;
+}
+
+#subscribe i:hover {
+    background: #348aff;
+    color: #fff;
+    border: 1px solid #348aff;
+}
+
+#subscribe .social {
+    margin-top: 45px;
+}
+
+/*subscribe part css ends here*/
+
+footer {
+    background: #5da1ff;
+    padding: 43px 0px 28px 0px;
+}
+
+footer p {
+    font-family: 15px;
+}
+
+/*footer part css ends here*/
