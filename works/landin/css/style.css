@@ -72,7 +72,6 @@ button:focus {
     padding-bottom: 40px;
 }
 .h_part_one {
-    padding-top: 75px;
     font-size: 32px;
     font-family: Nunito_bold;
 }
@@ -106,7 +105,6 @@ button:focus {
     color: #2f91ff;
     transition: 0.5s;
 }
-
 /* slick slider css strats here*/
 .slick-dots {
     list-style: none;
@@ -201,7 +199,7 @@ button:focus {
 .highlight {
     margin-bottom: -90px;
     background: #fff;
-    box-shadow: 0px 0px 20px 0px #868484;
+    box-shadow: 0px 0px 22px 1px #86848426;
 }
 .highlight i {
     margin-top: 20px;
@@ -218,6 +216,9 @@ button:focus {
 /*banner css ends here*/
 
 /*about css strats here*/
+#about{
+    padding: 72px 0px 82px 0px;
+}
 .img {
     position: relative;
 
@@ -251,8 +252,12 @@ button:focus {
 /*about css ends here*/
 
 /*service css strats here*/
+#service{
+    background: #f7fafe;
+    padding: 69px 0px 36px 0px;
+}
 #service .one {
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
     padding: 43px 50px 22px 50px;
 }
 #service .one h5 {
@@ -265,6 +270,9 @@ button:focus {
 /*service css ends here*/
  
 /*featured css strats here*/
+#featured{
+    padding: 68px 0px 89px 0px;
+}
 .featured_one {
     background: url(../image/featured_img.png) no-repeat;
     background-size: cover;
@@ -301,6 +309,10 @@ button:focus {
 /*featured css ends here*/
 
 /*Homelisting css strats here*/
+#home_listing{
+    background: #f7fafe;
+    padding: 67px 0px 88px 0px;
+}
 .listing_one {
     border: 1px solid #e3e3e3;
 }
@@ -341,7 +353,7 @@ button:focus {
 
 /*testimonial css strats here*/
 #testimonial {
-    padding-bottom: 30px;
+    padding: 76px 0px 29px 0px;
 }
 .test_heading p{
     font-size: 20px;
@@ -381,8 +393,8 @@ button:focus {
 #Subscribe {
     background: url(../image/Subscribe.png) no-repeat;
     background-size: cover;
-    padding-bottom: 79px;
     position: relative;
+    padding: 72px 0px 77px 0px;
 }
 #Subscribe::before {
     content: "";
