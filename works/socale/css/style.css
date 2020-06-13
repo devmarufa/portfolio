@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*all site button css starts here*/
+button,
+button:focus {
+    outline: none;
+}
+
+/*all site button css ends here*/
+/*font css strats here*/
+@font-face {
+    font-family: 'Montserrat_semibold';
+    src: url(../webfonts/font/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat_bold';
+    src: url(../webfonts/font/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat_reg';
+    src: url(../webfonts/font/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat_medium';
+    src: url(../webfonts/font/Montserrat/Montserrat-Medium.ttf);
+}
+
+/*font css ends here*/
+
+/* slick slider css strats here*/
+.slick-dots {
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    bottom: 54px;
+    right: 0;
+    width: 33.33%;
+    margin-right: 8.333333%;
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    font-size: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background: #22425e;
+    margin: 0px 15px 0px 0px;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots li.slick-active {
+    background: #2f91ff;
+    width: 12px;
+    height: 12px;
+
+}
+
+/*slick slider css ends here*/
+
+/*common css start here*/
+.font_one {
+    font-family: 'Montserrat_semibold';
+}
+
+.font_two {
+    font-family: 'Montserrat_bold';
+}
+
+.font_three {
+    font-family: 'Montserrat_reg';
+}
+
+.font_four {
+    font-family: 'Montserrat_medium';
+}
+
+.common_heading {
+    font-size: 32px;
+    font-family: 'Montserrat_bold';
+    text-align: center;
+    text-transform: uppercase;
+    color: #2f91ff;
+}
+
+.common_p_one {
+    font-size: 21px;
+    font-family: 'Montserrat_reg';
+    padding: 0px 0px 30px 0px;
+    color: #374d5e;
+    text-align: center;
+}
+
+.common_p_two {
+    font-size: 17px;
+    color: #294053;
+    font-family: 'Montserrat_reg';
+}
+
+.common_color_one {
+    color: #2f91ff;
+}
+.common_color_two {
+    color: #22425e;
+}
+.common_color_three{
+    color: #fff;
+}
+.common_background_one {
+    background: #2f91ff;
+}
+.common_background_two{
+    background: #fff;
+}
+.common_background_three{
+   background: #f2f8ff;
+}
+.common_headline {
+    font-size: 28px;
+    font-family: 'Montserrat_semibold';
+    color: #22425e;
+    margin: 26px 0px 26px 0px;
+}
+
+.common_font_size{
+    font-size: 15px;
+}
+/*common css ends here*/
+
+/*header css starts here*/
+#navbar {
+    margin: 30px 0px 30px 0px;
+}
+
+#navbar ul li a {
+    padding: 0px 55px 0px 0px;
+    color: #294053;
+}
+
+#navbar ul li a:hover {
+    color: #22425e;
+    font-family: 'Montserrat_semibold';
+    transition: 0.5s;
+}
+
+#navbar .btn_log {
+    padding: 7px 25px 10px 25px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 1px solid #22425e;
+}
+
+/*header css ends here*/
+
+/*banner css starts here*/
+#banner {
+    padding-top: 80px;
+}
+
+#banner h1 {
+    font-size: 68px;
+}
+
+#banner p {
+    font-size: 30px;
+    padding-bottom: 14px;
+}
+
+#banner button {
+    padding: 10px 30px 10px 30px;
+    font-size: 24px;
+    border: none;
+    border-radius: 25px;
+}
+
+/*banner css ends here*/
+
+/*about css starts here*/
+#about {
+    margin: 70px 0px 75px 0px;
+}
+
+#about img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px #94ccfb;
+}
+
+#about .about_text {
+    margin: 0px 0px 0px 15px;
+}
+
+#about button {
+    padding: 7px 22px 7px 22px;
+    margin: 10px 0px 0px 0px;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px #94ccfb;
+}
+
+/*about css ends here*/
+
+/*Features css starts here*/
+#features {
+    padding: 70px 0px 75px 0px;
+}
+
+#features .features_content {
+    border: 1px solid #dae2ea;
+    padding: 30px 25px 30px 25px;
+}
+
+#features .features_content h5 {
+    font-size: 22px;
+    margin: 14px 0px 11px 0px;
+}
+
+#features .features_content:hover {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 0px #94ccfb;
+    transition: 0.5s;
+}
+
+#features .features_content:hover h5 {
+    color: #2f91ff;
+    transition: 0.5s;
+}
+
+#features .features_content:hover p {
+    color: #22425e;
+    transition: 0.5s;
+}
+
+/*Features css ends here*/
+
+/*socale work starts here*/
+#socale_work {
+    margin: 70px 0px 78px 0px;
+}
+
+#socale_work .heading {
+    padding: 0px 0px 32px 0px;
+}
+
+#socale_work .about_text p {
+    line-height: 26px;
+}
+
+#socale_work .about_text {
+    margin: 63px 0px 0px 0px;
+}
+
+#socale_work .common_headline {
+    margin: 0px 0px 26px 0px;
+}
+
+#socale_work button {
+    margin: 18px 0px 0px 0px;
+    padding: 11px 23px 11px 23px;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+}
+
+#socale_work .work_card {
+    margin: 50px 0px 50px 0px;
+}
+
+/*socale work ends here*/
+
+
+/*pricing css starts here*/
+#socale_pricing {
+    padding: 70px 0px 78px 0px;
+}
+
+#socale_pricing .pricing_contant {
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px 0px 40px 0px;
+}
+
+#socale_pricing h5 {
+    font-size: 22px;
+}
+
+#socale_pricing h4 {
+    font-size: 50px;
+    background: #f8fafc;
+    border-top: 1px solid #e2e5e7;
+    border-bottom: 1px solid #e2e5e7;
+}
+
+#socale_pricing .pricing_contant h6 {
+    text-transform: uppercase;
+    color: #294053;
+}
+
+#socale_pricing span {
+    font-size: 17px;
+}
+
+#socale_pricing .pricing_contant button {
+    background: #22425e;
+    text-transform: uppercase;
+    padding: 6px 17px 6px 17px;
+    border-radius: 15px;
+    border: 1px solid #22425e;
+    box-shadow: 0px 0px 8px 0px #22425ed9;
+    margin: 10px 0px 0px 0px;
+
+}
+
+#socale_pricing .pricing_contant:hover {
+    box-shadow: 0px 0px 20px 0px #94ccfb;
+    transition: 0.5s;
+}
+#socale_pricing .pricing_contant:hover h5,
+#socale_pricing .pricing_contant:hover h4,
+#socale_pricing .pricing_contant:hover span{
+    color: #2f91ff;
+    border: none;
+    transition: 0.5s;
+}
+#socale_pricing .pricing_contant:hover button {
+    background: #2f91ff;
+    color: #fff;
+    border: 1px solid #2f91ff;
+    transition: 0.5s;
+}
+
+#socale_pricing nav {
+    display: flex;
+}
+
+#socale_pricing .nav-tabs {
+    border: none;
+    margin: 0px auto 43px auto;
+}
+
+#socale_pricing #nav-monthly-tab,
+#nav-yearly-tab {
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    background: #fff;
+    border: 1px solid #e2e5e7;
+    border-radius: 30px 0px 0px 30px;
+}
+
+#socale_pricing #nav-yearly-tab {
+    border-radius: 0px 30px 30px 0px;
+}
+
+#socale_pricing #nav-monthly-tab,
+#nav-yearly-tab:focus {
+    background: #2f91ff;
+    color: #fff !important;
+}
+
+/*pricing css ends here*/
+
+/*client css starts here*/
+#socale_client {
+    margin: 70px 0px 25px 0px;
+}
+
+.reveiw {
+    padding: 50px 56px 96px 53px;
+    box-shadow: 0px 0px 17px 17px #2f91ff0a;
+    position: relative;
+    border-radius: 10px;
+}
+
+.reveiw h4 {
+    margin: 0px 0px 6px 0px;
+    font-size: 22px;
+    color: #3091ff;
+}
+
+.reveiw span {
+    color: #6b7d8d;
+    line-height: 60px;
+
+}
+
+.reveiw img {
+    position: absolute;
+    bottom: 42px;
+    right: 57px;
+}
+
+.client_image {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    margin-top: 12%;
+    background: url(../image/clients_img.png) center no-repeat;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 10px 0px 20px 10px #2f91ff0f;
+}
+
+/*client css ends here*/
+
+/*contact css starts here*/
+
+#contact {
+    padding: 66px 0px 75px 0px;
+}
+
+#contact .contact_info {
+    padding: 60px 0px 80px 50px;
+    box-shadow: 0px 0px 39px 2px #79809940;
+    border-radius: 15px;
+    background: #fff;
+    position: relative;
+}
+
+#contact .contact_info form input,
+#contact .contact_info form textarea {
+    border: none;
+}
+
+#contact .contact_info .form-control {
+    border-bottom: 2px solid #e1e2e3;
+    border-radius: inherit;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+#contact .contact_info .form-control::placeholder {
+    color: #c2c2c2;
+    font-style: italic;
+}
+
+#contact .contact_info .form-control:focus::placeholder {
+    color: #232734;
+}
+
+#contact .contact_info .form-control:focus {
+    border-bottom: 1px solid #3192fe;
+    box-shadow: none;
+}
+
+#contact .contact_info form button {
+    margin: 16px 0px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    background: #3192fe;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+#contact .contact_info iframe {
+    width: 350px;
+    height: 360px;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+/*contact css ends here*/
+
+/*footer css starts here*/
+#footer {
+    background: url(../image/footer.png) no-repeat;
+    padding: 15px 0px 4px 0px;
+}
+
+/*footer css ends here*/

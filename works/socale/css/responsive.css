@@ -1,0 +1,522 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    #banner h1 {
+        font-size: 40px;
+    }
+
+    #banner p {
+        font-size: 25px;
+    }
+
+    .common_headline {
+        font-size: 25px;
+        margin: 18px 0px 18px 0px;
+    }
+
+    .common_p_two {
+        font-size: 15px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #banner h1 {
+        font-size: 40px;
+    }
+
+    #banner p {
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+
+    #banner button {
+        padding: 5px 25px 9px 25px;
+        font-size: 20px;
+    }
+
+    #about {
+        margin: 70px 0px 50px 0px;
+    }
+
+    #about .common_heading {
+        font-size: 30px;
+    }
+
+    #about .common_p_one {
+        font-size: 20px;
+    }
+
+    #about .about_text .common_headline {
+        font-size: 25px;
+    }
+
+    #about img {
+        margin: 0px 0px 20px 28px;
+    }
+
+    #about button {
+        padding: 5px 30px 6px 30px;
+        font-size: 18px;
+    }
+
+    #features {
+        padding: 46px 0px 23px 0px;
+    }
+
+    #features .features_content {
+        margin: 0px 0px 25px 0px;
+    }
+
+    #features .common_heading {
+        font-size: 30px;
+    }
+
+    #features .common_p_one {
+        font-size: 20px;
+    }
+
+    #socale_work {
+        margin: 45px 0px 47px 0px;
+    }
+
+    #socale_work .common_heading {
+        font-size: 30px;
+    }
+
+    .common_headline {
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .common_p_two {
+        font-size: 14px;
+        margin: 8px 0px 11px 0px;
+    }
+
+    #socale_work .about_text {
+        margin: 29px 0px 0px 0px;
+    }
+
+    #socale_work .about_text p {
+        line-height: 22px;
+    }
+
+    #socale_work .common_headline {
+        margin: 0px 0px 8px 0px;
+    }
+
+    #socale_work button {
+        margin: 0px 0px 0px 0px;
+        padding: 5px 20px 5px 20px;
+        font-size: 15px;
+    }
+
+
+    #socale_pricing {
+        background: #f2f8ff;
+        padding: 44px 0px 45px 0px;
+    }
+
+    #socale_pricing .common_heading {
+        font-size: 30px;
+    }
+
+    #socale_pricing .common_p_one {
+        font-size: 20px;
+    }
+
+    #socale_client {
+        margin: 41px 0px 50px 0px;
+    }
+
+    .common_heading {
+        font-size: 30px;
+    }
+
+    .common_p_one {
+        font-size: 20px;
+    }
+
+    .reveiw {
+        padding: 27px 30px 72px 30px;
+        border-left: 1px solid #eef1f2;
+        border-bottom: 1px solid #eef1f2;
+        border-top: 1px solid #eef1f2;
+        border-radius: 20px;
+        box-shadow: none;
+    }
+
+    .reveiw h4 {
+        margin: 0px 0px 7px 0px;
+        font-size: 20px;
+    }
+
+    .reveiw span {
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+    .client_image {
+        box-shadow: none;
+    }
+
+    .slick-dots {
+        margin-right: 2.333%;
+        bottom: 7px;
+    }
+
+    .slick-dots li.slick-active {
+        width: 10px;
+        height: 10px;
+    }
+
+    #contact {
+        padding: 42px 0px 48px 0px;
+    }
+
+    #contact .contact_info iframe {
+        width: 299px;
+        height: 294px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    #contact .contact_info {
+        padding: 38px 0px 30px 50px;
+    }
+
+    #contact .contact_info .google_map::before {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #banner {
+        padding-top: 33px;
+    }
+
+    #banner h1 {
+        font-size: 28px;
+    }
+
+    #banner p {
+        font-size: 15px;
+    }
+
+    #banner button {
+        padding: 6px 20px 6px 20px;
+        font-size: 15px;
+    }
+
+    #about {
+        margin: 55px 0px 50px 0px;
+    }
+
+    .common_heading {
+        font-size: 25px;
+    }
+
+    .common_p_one {
+        font-size: 15px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    #about img {
+        border-radius: 10px;
+        box-shadow: 0px 0px 24px 0px #94ccfb;
+    }
+
+    .common_headline {
+        font-size: 22px;
+        margin: 20px 0px 10px 0px;
+    }
+
+    .common_p_two {
+        font-size: 15px;
+    }
+
+    #about button {
+        padding: 6px 30px 6px 30px;
+        margin: 0px;
+        box-shadow: 0px 0px 18px 0px #94ccfb;
+    }
+
+    #features {
+        padding: 36px 0px 36px 0px;
+    }
+
+    #features .features_content {
+        margin: 0px 0px 15px 0px;
+    }
+
+    #socale_work {
+        margin: 34px 0px 47px 0px;
+    }
+
+    #socale_work .heading {
+        padding: 0px;
+    }
+
+    #socale_work .img {
+        display: none;
+    }
+
+    #socale_work .about_text {
+        text-align: center;
+        margin: 30px 0px 0px 0px;
+    }
+
+    #socale_work button {
+        margin: 0px;
+    }
+
+    #socale_work .work_card {
+        margin: 20px 0px 0px 0px;
+    }
+
+    #socale_pricing {
+        padding: 36px 0px 40px 0px;
+    }
+
+    #socale_pricing .pricing_contant {
+        margin: 0px 0px 15px 0px;
+    }
+
+    #socale_client {
+        margin: 40px 0px 25px 0px;
+    }
+
+    .reveiw {
+        padding: 33px 27px 70px 40px;
+        box-shadow: none;
+        border: 1px solid #efefef;
+    }
+
+
+    .slick-dots {
+        bottom: 16px;
+        margin-right: 32.333%;
+    }
+
+    #contact {
+        padding: 36px 0px 53px 0px;
+    }
+
+    #contact .contact_info {
+        padding: 40px 0px 40px 50px;
+        box-shadow: none;
+    }
+
+    #contact .contact_info iframe {
+        width: 451px;
+        height: 288px;
+        margin: 20px 0px 0px 0px;
+    }
+}
+
+/*extra small devices (landscape phones,320px and up)*/
+@media (min-width: 320px) and (max-width: 575px) {
+    #banner {
+        padding-top: 28px;
+    }
+
+    #banner h1 {
+        font-size: 27px;
+    }
+
+    #banner p {
+        font-size: 16px;
+        padding-bottom: 0px;
+    }
+
+    #banner button {
+        padding: 5px 20px 5px 20px;
+        font-size: 17px;
+    }
+
+    #banner img {
+        margin: 20px 0px 0px 0px;
+    }
+
+    #about {
+        margin: 38px 0px 50px 0px;
+    }
+
+    .common_p_one {
+        font-size: 15px;
+        padding: 0px 0px 14px 0px;
+    }
+
+    #about img {
+        box-shadow: 0px 0px 15px 0px #8ac6f9;
+    }
+
+    .common_headline {
+        font-size: 20px;
+        margin: 20px 0px 8px 0px;
+    }
+
+    .about_text p {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .common_p_two {
+        font-size: 15px;
+    }
+
+    #features {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .common_heading {
+        font-size: 20px;
+    }
+
+    #features .features_content {
+        margin: 0px 0px 20px 0px;
+    }
+
+    #socale_work {
+        margin: 40px 0px 40px 0px;
+    }
+
+    #socale_work .heading {
+        padding: 0px;
+    }
+
+    #socale_work img {
+        display: none;
+    }
+
+    #socale_work .about_text {
+        text-align: center;
+    }
+
+    #socale_work .about_text {
+        margin: 24px 0px 0px 0px;
+    }
+
+    #socale_work .work_card {
+        margin: 5px 0px 0px 0px;
+    }
+
+    #socale_work .about_text .common_headline {
+        font-size: 16px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #socale_work button {
+        margin: 0px;
+        font-size: 15px;
+        padding: 5px 15px 5px 15px;
+    }
+
+    #socale_pricing {
+        padding: 40px 0px 40px 0px;
+    }
+
+    #socale_pricing #nav-monthly-tab,
+    #nav-yearly-tab {
+        padding: 5px 25px 5px 25px;
+        font-size: 17px;
+    }
+
+    #socale_pricing .nav-tabs {
+        margin: 0px auto 25px auto;
+    }
+
+    #socale_pricing .pricing_contant {
+        margin: 0px 0px 15px 0px;
+    }
+
+    #socale_client {
+        margin: 40px 0px 25px 0px;
+    }
+
+    #socale_client .client_image {
+        display: none;
+    }
+
+    .reveiw {
+        padding: 23px 20px 30px 25px;
+        box-shadow: none;
+        border: 1px solid #e9e9e9;
+    }
+
+    .reveiw h4 {
+        margin: 0px;
+        font-size: 22px;
+    }
+
+    .reveiw p {
+        margin: 0px;
+    }
+
+    .reveiw span {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .reveiw img {
+        display: none;
+    }
+
+    .slick-dots {
+        bottom: 0px;
+        margin-right: 33.333%;
+    }
+
+    #contact {
+        padding: 28px 0px 39px 0px;
+    }
+
+    #contact .contact_info {
+        padding: 27px 0px 31px 39px;
+        box-shadow: none;
+        margin: 0px 0px 0px 12px;
+    }
+
+    #contact .contact_info .google_map {
+        display: none;
+    }
+
+    #contact .contact_info form button {
+        margin: 9px 0px 0px 0px;
+        padding: 7px 15px 7px 15px;
+        font-size: 15px;
+    }
+}
+
+/*menu toggle media css strats here*/
+@media only screen and (max-width: 768px) {
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+    }
+
+    #navbar ul li {
+        margin: 0px 0px 10px 0px;
+    }
+
+    #navbar ul li a {
+        padding: 0px;
+    }
+
+    #navbar .btn_log {
+        padding: 5px 20px 5px 20px;
+        font-size: 15px;
+        border: 2px solid #22425e;
+    }
+
+}
+
+/*menu toggle media css ends here*/
