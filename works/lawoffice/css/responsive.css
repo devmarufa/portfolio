@@ -1,0 +1,235 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    header .navbar-nav .nav-item .nav-link {
+        padding: 0px 15px;
+    }
+
+    #highlights {
+        margin-top: -13.5%;
+    }
+
+    #highlights .highlights_content::before {
+        transform: skew(0deg)
+    }
+
+    #testimonial .review {
+        margin-top: -1%;
+    }
+
+    #testimonial .slick-dots {
+        left: -30%;
+        top: 98%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    header,
+    header .navbar-nav .nav-item .dropdown-menu .dropdown-item,
+    #testimonial {
+        text-align: center;
+    }
+
+    #banner {
+        padding-top: 150px
+    }
+
+    #highlights {
+        margin-top: -19.5%;
+    }
+
+    #highlights .highlights_content::before {
+        transform: skew(0deg)
+    }
+
+    #highlights .highlights_content {
+        padding: 50px 50px 30px 50px;
+    }
+
+    #practice_areas .practice_areas_content i {
+        font-size: 38px;
+    }
+
+    #testimonial img,
+    #contact .google_map {
+        display: none;
+    }
+
+    #testimonial .slick-dots {
+        top: 0;
+        left: 0;
+    }
+
+    #contact .contact_info {
+        padding: 60px 50px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    header,
+    header .navbar-nav .nav-item .dropdown-menu .dropdown-item,
+    #testimonial #practice_areas .practice_areas_content {
+        text-align: center;
+    }
+
+    #banner br,
+    #highlights i,
+    #highlights br,
+    #practice_areas::after {
+        display: none
+    }
+
+    #banner {
+        padding-top: 150px
+    }
+
+    #highlights {
+        margin-top: -20.5%;
+    }
+
+    #highlights .highlights_content::before {
+        transform: skew(0deg)
+    }
+
+    #highlights .highlights_content {
+        padding: 0px 20px 10px 20px;
+    }
+
+    #practice_areas .practice_areas_content p {
+        padding: 0px;
+    }
+
+    #practice_areas h3 {
+        margin-top: 25px;
+    }
+
+    #practice_areas .practice_areas_content .one p {
+        margin-bottom: 34px;
+    }
+
+    #case_studies .filter_menu a {
+        margin: 0px 8px;
+    }
+
+    #case_studies .filter_content .hover {
+        height: 40%;
+    }
+
+    #our_prices .pricing_part:nth-child(1) {
+        margin: 35px 0px;
+    }
+
+    #testimonial img,
+    #contact .google_map {
+        display: none;
+    }
+
+    #testimonial .slick-dots {
+        top: 0;
+        left: 0;
+    }
+
+    #contact .contact_info {
+        padding: 60px 50px;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    
+    #banner {
+        padding: 100px 0px;
+        background-position: 74%;
+    }
+
+    #banner br,
+    #highlights,
+    #practice_areas::after,
+    #practice_areas i,
+    #testimonial img,
+    #contact .google_map {
+        display: none
+    }
+
+    #banner h1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    #banner a {
+        text-transform: capitalize;
+        padding: 15px 25px;
+    }
+
+    .heading {
+        margin: 0px 0px 30px 0px;
+    }
+
+    #about,
+    #practice_areas,
+    #case_studies,
+    #our_prices,
+    #testimonial {
+        padding: 50px 0px;
+    }
+
+    #about .team_member:nth-child(1) {
+        margin: 10px 0px;
+    }
+
+    header,
+    #practice_areas .practice_areas_content,
+    #testimonial,
+    footer,
+    .heading {
+        text-align: center;
+    }
+
+    #practice_areas .practice_areas_content p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #practice_areas h3 {
+        margin-top: 25px;
+    }
+
+    #case_studies .filter_menu a,
+    #case_studies .filter_menu .active a {
+        margin: 0px 8px;
+        padding: 0px;
+    }
+
+    #case_studies .filter_content {
+        margin: 0px;
+    }
+
+    #case_studies .filter_content .hover {
+        height: 60%;
+    }
+
+    #our_prices .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link {
+        font-size: 17px;
+        padding: 15px 44px;
+    }
+
+    #our_prices nav {
+        margin-bottom: 35px;
+    }
+
+    #our_prices .pricing_part:nth-child(1) {
+        margin: 30px 0px;
+    }
+
+    #testimonial .slick-dots {
+        top: 0;
+        left: 0;
+    }
+
+    #contact .contact_info {
+        padding: 30px 30px;
+    }
+}
