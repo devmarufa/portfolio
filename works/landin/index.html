@@ -2,477 +2,309 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>landIn</title>
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Marufa</title>
+    <!-- Favicon -->
+    <link href="favicon.png" type="image/png" rel="icon">
+    <link rel="stylesheet" href="main.css">
+
 </head>
 
-<body>
-    <!--top_header strats here-->
-    <section class="top_header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6 call_us mt-lg-1">
-                    <p>Call us - 21548 987 658</p>
-                </div>
-                <div class=" col-lg-6 col-md-6 col-sm-6 col-6 text-right button">
-                    <button type="button" class="btn p_tex  btn_border common_font_two">Login</button>
-                    <button type="button" class="btn p_tex  btn_border common_font_two">Primary</button>
-                </div>
+<body id="body" data-spy="scroll" data-target="#menu-list">
+
+    <!--  start page loader  -->
+
+    <div id="preloader">
+        <div class="scroll-static"></div>
+    </div>
+
+    <!--  end page loader  -->
+
+    <!-- begin of main-wrapper -->
+    <div class="main-wrapper">
+        <!-- begin of navbar -->
+        <div class="nav-bar">
+            <!-- begin of scroll-indicator -->
+            <div class="scroll-indicator"></div>
+            <nav>
+                <ul id="menu-list">
+                    <li class="nav-item"><a class="active nav-link" href="#body" data-text="Home">
+                            <span>01</span>Home
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" data-text="About">
+                            <span>02</span>About
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services" data-text="Services">
+                            <span>03</span>Skillset
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#works" data-text="Projects">
+                            <span>05</span>Projects
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-text="Contact">
+                            <span>06</span>Contact
+                        </a></li>
+                </ul>
+            </nav>
+            <div class="nav-footer">
+                <p class="nav-copyright">&copy; Copyright 2020<br>All rights reserved</p>
             </div>
         </div>
-    </section>
-    <!-- top_header ends here-->
+        <!-- end of navbar -->
+        <!-- begin of main-content -->
+        <div class="main-content">
+            <!-- begin of header -->
+            <header>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-7">
+                            <!-- logo -->
+                            <div class="logo">
+                                <a href="index.html">DM</a>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <a href="mailto:marufajhuma1@gmail.com" class="default-btn header-action-btn"><i class="ti-agenda"></i> Contact</a>
+                            <div class="default-btn menu-btn">
+                                <i class="ti-menu"></i>
+                                <i class="ti-close"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- end of header -->
 
-    <!-- header strats here-->
-    <section class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="navber pt-lg-1 pb-lg-3">
-                        <nav class="navbar navbar-expand-lg px-0 navbar-light">
-                            <a class="navbar-brand" href="#"><img src="image/logo.png" alt=""></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item pr-lg-5">
-                                        <a class="text-decoration-none p_color_one hover_color common_font_two" href="#about">About</a>
-                                    </li>
-                                    <li class="nav-item pr-lg-5">
-                                        <a class="text-decoration-none p_color_one hover_color common_font_two" href="#service">Services</a>
-                                    </li>
-                                    <li class="nav-item pr-lg-5">
-                                        <a class="text-decoration-none p_color_one hover_color common_font_two" href="#featured">Featured Listing</a>
-                                    </li>
-                                    <li class="nav-item pr-lg-5">
-                                        <a class="text-decoration-none p_color_one hover_color common_font_two" href="#home_listing">Home Listing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="text-decoration-none p_color_one hover_color common_font_two" href="#testimonial">Testimonial</a>
-                                    </li>
+            <!-- begin of home-wrapper -->
+            <div class="home-wrapper">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-5 col-sm-5">
+                            <div class="hero-img wow fadeIn" data-wow-delay=".2s">
+                                <div class="shape"></div>
+                                <!-- hero image -->
+                                <img class="img-fluid" src="user.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-7">
+                            <div class="hero-content">
+                                <h2 class="intro-name">
+                                    <span class="wow slideInLeft">Hey, I am</span>
+                                    <span class="wow slideInLeft" data-wow-delay=".2s">Marufa</span>
+                                </h2>
+                                <p>
+                                    <span class="wow slideInLeft" data-wow-delay=".5s">Website Designer. Based in Bangladesh.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of home-wrapper -->
+
+            <!-- begin of about-wrapper -->
+            <div id="about" class="wrapper about-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- section heading -->
+                            <h3 class="wrapper-heading">About Me</h3>
+
+                            <h4 class="about-sub-heading">I am a Freelancer</h4>
+                            <p class="about-text">Working as a Front-end-developer</p>
+
+                            <!-- social profile links -->
+                            <div class="social-links">
+                                <span>I am avilable on</span>
+                                <ul>
+                                    <li><a href="https://www.github.com/devmarufa/" target="_blank" data-text="git"><i class="ti-github"></i></a></li>
+                                    <li><a href="https://www.facebook.com/devmarufa/" target="_blank" data-text="fa"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/devmarufa/" target="_blank" data-text="tw"><i class="ti-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/devmarufa/" target="_blank" data-text="ig"><i class="ti-instagram"></i></a></li>
                                 </ul>
                             </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- header ends here-->
-
-    <!--banner strats here-->
-    <section class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="banner_text text-center ">
-                        <span class="text-white text-uppercase p_text common_font_three">property listings</span>
-                        <h1 class="text-white common_font_three">Find The Perfect House<br> OR Office</h1>
-                        <p class="text-white p_text common_font_two pt-lg-2">We are an experienced Property Listing Company featuring the best<br>residential and business properties.</p>
-                    </div>
-                    <div class="row highlight rounded">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-                            <div class="highlight_text text-center pl-lg-1 pr-lg-1">
-                                <i class="fas fa-address-card"></i>
-                                <h3 class="common_font_one text_color_there">Verified Owners</h3>
-                                <p class="p_two p_color_two">Click edit button to change this text Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-                            <div class="highlight_text text-center">
-                                <i class="fas fa-check-circle"></i>
-                                <h3 class="common_font_one text_color_there">Verified Owners</h3>
-                                <p class="p_two p_color_two">Click edit button to change this text Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-                            <div class="highlight_text text-center">
-                                <i class="fas fa-city"></i>
-                                <h3 class="common_font_one text_color_there">Verified Owners</h3>
-                                <p class="p_two p_color_two">Click edit button to change this text Lorem ipsum dolor sit amet.</p>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--banner ends here-->
+            <!-- end of about-wrapper -->
 
-    <!--about strats here-->
-    <section id="about">
-        <div class="container">
-            <div class="about_header text-center">
-                <h1 class="h_part_one text-uppercase text_color_one">who we are</h1>
-                <p class="">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit, sed do eiusmod tempor incclassclassunt ut labore</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12 img">
-                    <img src="image/about_img.png" alt="">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 mt-md-0 mt-sm-4 text offset-lg-1">
-                    <h3 class="common_font_one  pb-lg-3">Few Words About Us</h3>
-                    <p class="p_two p_color_one">Lorem ipsum dolor sit amet, consectetur adipiscing elit,dclassunt ut labo
-                        sed do eiusmod tempor incclassclassunt ut labore et dolore dclassunt ut
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud dclassunt ut lab
-                        exercitation ullamco laboris </p>
-                    <p class="p_two p_color_one">nisi ut aliquip ex ea commodo consequat. Duis aute iruredclassunt ut
-                        dolor in reprehenderit in voluptate velit esse cillum dolore dclassunt ut la
-                        eu fugiat nulla pariatur.</p>
-                    <button type="button" class=" background_color btn_border btn-lg mt-lg-3 text_color_two common_font_one btn_font_size btn_2">Know More</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--about ends here-->
-
-    <!-- service strats here-->
-    <section id="service">
-        <div class="container">
-            <div class="service_heading text-center">
-                <h1 class="h_part_one common_font_three text-uppercase text_color_one">what we provclasse</h1>
-                <p class="p_text common_font_two p_color_one">Lorem ipsum dolor sit amet, consectetur<br>
-                    adipiscing elit, sed do eiusmod tempor incclassclassunt ut labore</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-10 offset-sm-1 offset-lg-0 offset-md-0 one text-center">
-                    <img src="image/one.png" alt="">
-                    <h5 class="common_font_one p_color_one">Planing</h5>
-                    <p class="p_two p_color_two">For build eye-cachy wordpress can help anyone.n help anyone.n help n help anyone.n help anyone.n help one.nyone.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-10 offset-sm-1 offset-lg-0 offset-md-0 one text-center">
-                    <img src="image/two.png" alt="">
-                    <h5 class="common_font_one p_color_one">create</h5>
-                    <p class="p_two p_color_two">For build eye-cachy wordpress can help anyone.n help anyone.n help n help anyone.n help anyone.n help one.nyone.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-10 offset-sm-1 offset-lg-0 offset-md-0 one text-center">
-                    <img src="image/three.png" alt="">
-                    <h5 class="common_font_one p_color_one">create</h5>
-                    <p class="p_two p_color_two">For build eye-cachy wordpress can help anyone.n help anyone.n help n help anyone.n help anyone.n help one.nyone.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-10 offset-sm-1 offset-lg-0 offset-md-0 one text-center">
-                    <img src="image/four.png" alt="">
-                    <h5 class="common_font_one p_color_one">create</h5>
-                    <p class="p_two p_color_two">For build eye-cachy wordpress can help anyone.n help anyone.n help n help anyone.n help anyone.n help one.nyone.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-10 offset-sm-1 offset-lg-0 offset-md-0 one text-center">
-                    <img src="image/five.png" alt="">
-                    <h5 class="common_font_one p_color_one">create</h5>
-                    <p class="p_two p_color_two">For build eye-cachy wordpress can help anyone.n help anyone.n help n help anyone.n help anyone.n help one.nyone.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-10 offset-sm-1 offset-lg-0 offset-md-0 one text-center">
-                    <img src="image/six.png" alt="">
-                    <h5 class="common_font_one p_color_one">create</h5>
-                    <p class="p_two p_color_two">For build eye-cachy wordpress can help anyone.n help anyone.n help n help anyone.n help anyone.n help one.nyone.</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- service ends here-->
-
-    <!--Featured strats here-->
-    <section id="featured">
-        <div class="container">
-            <div class="featured_heading text-center">
-                <h1 class="h_part_one text_color_one common_font_three text-uppercase">featured listing</h1>
-                <p class="p_text p_color_one common_font_two">Lorem ipsum dolor sit amet, consectetur<br>
-                    adipiscing elit, sed do eiusmod tempor incclassclassunt ut labore</p>
-            </div>
-            <div class="one-time3">
-                <div class="col-lg-7 col-md-7 col-sm-7">
-                    <div class="featured_one text-center">
-                        <h2 class="text-white common_font_one pb-lg-2">Modern House</h2>
-                        <p class="text-white pb-lg-2 common_font_two p_two">A beautiful home with a short<br>
-                            description for the listing.</p>
-                        <button type="button" class=" btn-lg background_color btn_border text_color_two common_font_one btn_font_size">View details</button>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-5 text-white text-center">
-                    <div class="featured_two ">
-                        <h4 class="h_part_two">Modern House</h4>
-                        <p class="p_two">A beautiful home with a short<br>
-                            description for the listing.</p>
-                        <button type="button" class="btn-lg background_color btn_border text_color_two common_font_one button_font_size mt-1">View details</button>
-                    </div>
-                    <div class="featured_three mt-lg-4 mt-sm-2">
-                        <h5 class="common_font_one">Modern House</h5>
-                        <p class="p_there">A beautiful home with a short<br>
-                            description for the listing.</p>
-                        <button type="button" class="btn-lg background_color btn_border text_color_two common_font_one button">View details</button>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-7 col-sm-7">
-                    <div class="featured_one text-center">
-                        <h2 class="text-white common_font_one pb-lg-2">Modern House</h2>
-                        <p class="text-white pb-lg-2 common_font_two p_two">A beautiful home with a short<br>
-                            description for the listing.</p>
-                        <button type="button" class=" btn-lg background_color btn_border text_color_two common_font_one btn_font_size">View details</button>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-5 text-white text-center">
-                    <div class="featured_two ">
-                        <h4 class="h_part_two">Modern House</h4>
-                        <p class="p_two">A beautiful home with a short<br>
-                            description for the listing.</p>
-                        <button type="button" class="btn-lg background_color btn_border text_color_two common_font_one button_font_size mt-1">View details</button>
-                    </div>
-                    <div class="featured_three mt-lg-4 mt-sm-2">
-                        <h5 class="common_font_one">Modern House</h5>
-                        <p class="p_there">A beautiful home with a short<br>
-                            description for the listing.</p>
-                        <button type="button" class="btn-lg background_color btn_border text_color_two common_font_one button">View details</button>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-7 col-sm-7">
-                    <div class="featured_one text-center">
-                        <h2 class="text-white common_font_one pb-lg-2">Modern House</h2>
-                        <p class="text-white pb-lg-2 common_font_two p_two">A beautiful home with a short<br>
-                            description for the listing.</p>
-                        <button type="button" class=" btn-lg background_color btn_border text_color_two common_font_one btn_font_size">View details</button>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-5 text-white text-center">
-                    <div class="featured_two ">
-                        <h4 class="h_part_two">Modern House</h4>
-                        <p class="p_two">A beautiful home with a short<br>
-                            description for the listing.</p>
-                        <button type="button" class="btn-lg background_color btn_border text_color_two common_font_one button_font_size mt-1">View details</button>
-                    </div>
-                    <div class="featured_three mt-lg-4 mt-sm-2">
-                        <h5 class="common_font_one">Modern House</h5>
-                        <p class="p_there">A beautiful home with a short<br>
-                            description for the listing.</p>
-                        <button type="button" class="btn-lg background_color btn_border text_color_two common_font_one button">View details</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Featured strats here-->
-
-    <!-- Home Listing strats here-->
-    <section id="home_listing">
-        <div class="container">
-            <div class="listing_heading text-center ">
-                <h1 class="h_part_one text_color_one common_font_three text-uppercase">Home Listing</h1>
-                <p class="p_text p_color_one common_font_two">Lorem ipsum dolor sit amet, consectetur<br>
-                    adipiscing elit, sed do eiusmod tempor incclassclassunt ut labore</p>
-            </div>
-            <div class="one-time2">
-                <div class="col-lg-4 col-md-4">
-                    <div class="listing_card">
-                        <div class="listing_img">
-                            <img src="image/Listing_img1.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="listing_one text-center">
-                            <h5 class="common_font_one">Modern House</h5>
-                            <p class="p_two p_color_one">A beautiful home with a short<br>
-                                description for the listing.</p>
-                            <button type="button" class="btn-lg btn_color btn_border text_color_two common_font_one button_font_size text-uppercase">View details</button>
-
-                            <div class="ml-lg-4 mr-lg-4 ml-md-1 mr-md-1">
-                                <div class="add_height">
-                                    <a href="" class="text-decoration-none p_color_one p_text_color"><i class="fas fa-map-marker-alt"></i>
-                                        <span class=" text-black  common_font_two p_color_one p_text_color">Palm Springs</span></a>
-                                    <a href="" class="text-decoration-none p_color_one p_text_color float-right"><i class="fas fa-arrows-alt-v"></i>
-                                        <span class=" text-black common_font_two p_color_one p_text_color">500 sq. feet</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="listing_card">
-                        <div class="listing_img">
-                            <img src="image/Listing_img2.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="listing_one text-center">
-                            <h5 class="common_font_one">Modern House</h5>
-                            <p class="p_two p_color_one">A beautiful home with a short<br>
-                                description for the listing.</p>
-                            <button type="button" class="btn-lg btn_color btn_border text_color_two common_font_one button_font_size text-uppercase">View details</button>
-
-                            <div class="ml-lg-4 mr-lg-4 ml-md-4 mr-md-4">
-                                <div class="add_height">
-                                    <a href="" class="text-decoration-none p_color_one p_text_color"><i class="fas fa-map-marker-alt"></i>
-                                        <span class=" text-black  common_font_two p_color_one p_text_color">Palm Springs</span></a>
-                                    <a href="" class="text-decoration-none p_color_one p_text_color float-right"><i class="fas fa-arrows-alt-v"></i>
-                                        <span class=" text-black common_font_two p_color_one p_text_color">500 sq. feet</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="listing_card">
-                        <div class="listing_img">
-                            <img src="image/Listing_img3.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="listing_one text-center">
-                            <h5 class="common_font_one">Modern House</h5>
-                            <p class="p_two p_color_one">A beautiful home with a short<br>
-                                description for the listing.</p>
-                            <button type="button" class="btn-lg btn_color btn_border text_color_two common_font_one button_font_size text-uppercase">View details</button>
-
-                            <div class="ml-lg-4 mr-lg-4 ml-md-4 mr-md-4">
-                                <div class="add_height">
-                                    <a href="" class="text-decoration-none p_color_one p_text_color"><i class="fas fa-map-marker-alt"></i>
-                                        <span class=" text-black  common_font_two p_color_one p_text_color">Palm Springs</span></a>
-                                    <a href="" class="text-decoration-none p_color_one p_text_color float-right"><i class="fas fa-arrows-alt-v"></i>
-                                        <span class=" text-black common_font_two p_color_one p_text_color">500 sq. feet</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="listing_card">
-                        <div class="listing_img">
-                            <img src="image/Listing_img3.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="listing_one text-center">
-                            <h5 class="common_font_one">Modern House</h5>
-                            <p class="p_two p_color_one">A beautiful home with a short<br>
-                                description for the listing.</p>
-                            <button type="button" class="btn-lg btn_color btn_border text_color_two common_font_one button_font_size text-uppercase">View details</button>
-
-                            <div class="ml-lg-4 mr-lg-4 ml-md-4 mr-md-4">
-                                <div class="add_height">
-                                    <a href="" class="text-decoration-none p_color_one p_text_color"><i class="fas fa-map-marker-alt"></i>
-                                        <span class=" text-black  common_font_two p_color_one p_text_color">Palm Springs</span></a>
-                                    <a href="" class="text-decoration-none p_color_one p_text_color float-right"><i class="fas fa-arrows-alt-v"></i>
-                                        <span class=" text-black common_font_two p_color_one p_text_color">500 sq. feet</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- Home Listing ends here-->
-
-    <!--testimonial strats here-->
-    <section id="testimonial">
-        <div class="container">
-            <div class="test_heading text-center">
-                <h1 class="h_part_one text_color_one common_font_three text-uppercase">who like us</h1>
-                <p class=" p_color_one common_font_two">Lorem ipsum dolor sit amet, consectetur<br>
-                    adipiscing elit, sed do eiusmod tempor incclassclassunt ut labore</p>
-            </div>
-            <div class="one-time">
-                <div class="col-lg-12 py-5">
+            <!-- begin of service-wrapper -->
+            <div id="services" class="wrapper service-wrapper">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12 reveiw offset-lg-1 offset-md-1">
-                            <img src="image/quote.png" alt="">
-                            <p>Lorem ipsum dolor sit amet, consecte
-                                tur adipiscing elit, sed do eius
-                                mod tempor incididunt ut labore et do
-                                lore magna aliqua. Fames ac turpis
-                                egestas maecenas pharetra convallis</p>
-                            <h4 class="p_one text_color_one">Jhone Edison</h4>
-                            <span class="text">Businessman</span>
+                        <div class="col-md-12">
+                            <!-- section heading -->
+                            <h3 class="wrapper-heading">Skillset</h3>
                         </div>
-                        <div class="col-lg-4 col-md-4 px-0">
-                            <div class="client_image">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <!-- service item -->
+                            <div class="service-item">
+                                <span class="ti-ruler-pencil"></span>
+                                <h4>Web Elements</h4>
+                                <p>HTML5, CSS3, Jquery, Bootstrap4, WordPress</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <!-- service item -->
+                            <div class="service-item">
+                                <span class="ti-bar-chart-alt"></span>
+                                <h4>Graphics Elements</h4>
+                                <p>Adobe Photoshop, Adobe Illustrator</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <!-- service item -->
+                            <div class="service-item">
+                                <span class="ti-hummer"></span>
+                                <h4>Digital Marketing</h4>
+                                <p>Social Media Management, Hubspot, Mailchimp</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 py-5">
+            </div>
+            <!-- end of service-wrapper -->
+
+
+            <!-- begin of works-wrapper -->
+            <div id="works" class="wrapper works-wrapper">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12 reveiw offset-lg-1 offset-md-1">
-                            <img src="image/quote.png" alt="">
-                            <p>Lorem ipsum dolor sit amet, consecte
-                                tur adipiscing elit, sed do eius
-                                mod tempor incididunt ut labore et do
-                                lore magna aliqua. Fames ac turpis
-                                egestas maecenas pharetra convallis</p>
-                            <h4 class="p_one text_color_one">Jhone Edison</h4>
-                            <span class="text">Businessman</span>
+                        <div class="col-md-12">
+                            <!-- section heading -->
+                            <h3 class="wrapper-heading">Recent Works</h3>
                         </div>
-                        <div class="col-lg-4 col-md-4 px-0">
-                            <div class="client_image">
+                        <div class="col-md-12">
+                            <!-- work filter buttons -->
+                            <div class="filter-buttons">
+                                <button class="active" data-filter="*">Everything</button>
+                                <button data-filter=".web">Web</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row zoom-gallery">
+                        <!-- work single item  -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 web">
+                            <div class="work-single-item">
+                                <a class="zoom-image" href="work-01.jpg">
+                                    <div class="tilt-wrap">
+                                        <img class="img-fluid" src="work-01.jpg" alt="">
+                                        <h6>Eventa</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- work single item  -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 web">
+                            <div class="work-single-item">
+                                <a class="zoom-image" href="work-02.jpg">
+                                    <div class="tilt-wrap">
+                                        <img class="img-fluid" src="work-02.jpg" alt="">
+                                        <h6>Law office</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- work single item  -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 web">
+                            <div class="work-single-item">
+                                <a class="zoom-image" href="work-03.jpg">
+                                    <div class="tilt-wrap">
+                                        <img class="img-fluid" src="work-03.jpg" alt="">
+                                        <h6>Petclub</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- work single item  -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 web">
+                            <div class="work-single-item">
+                                <a class="zoom-image" href="work-04.jpg">
+                                    <div class="tilt-wrap">
+                                        <img class="img-fluid" src="work-04.jpg" alt="">
+                                        <h6>Landin</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- work single item  -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 web">
+                            <div class="work-single-item">
+                                <a class="zoom-image" href="work-05.jpg">
+                                    <div class="tilt-wrap">
+                                        <img class="img-fluid" src="work-05.jpg" alt="">
+                                        <h6>socale</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- work single item  -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 web">
+                            <div class="work-single-item">
+                                <a class="zoom-image" href="work-06.jpg">
+                                    <div class="tilt-wrap">
+                                        <img class="img-fluid" src="work-06.jpg" alt="">
+                                        <h6>chaty</h6>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 py-5">
+            </div>
+            <!-- end of works-wrapper -->
+
+            <!-- begin of contact-wrapper -->
+            <div id="contact" class="wrapper contact-wrapper">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12 reveiw offset-lg-1 offset-md-1">
-                            <img src="image/quote.png" alt="">
-                            <p>Lorem ipsum dolor sit amet, consecte
-                                tur adipiscing elit, sed do eius
-                                mod tempor incididunt ut labore et do
-                                lore magna aliqua. Fames ac turpis
-                                egestas maecenas pharetra convallis</p>
-                            <h4 class="p_one text_color_one">Jhone Edison</h4>
-                            <span class="text">Businessman</span>
-                        </div>
-                        <div class="col-lg-4 col-md-4 px-0">
-                            <div class="client_image">
+                        <div class="col-lg-12 text-center col-md-12">
+                            <div class="contact-details">
+                                <h4>Get in Touch</h4>
+                                <p>I am happy to answer any questions you may have, please contact me anytime</p>
+                            </div>
+                            <div class="contact-info">
+                                <a href="mailto:marufajhuma1@gmail.com">
+                                    <p class="d-inline-block"><span class="ti-email"></span>Marufajhuma1@gmail.com</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- end of contact-wrapper -->
 
-    </section>
-    <!--testimonial ends here-->
-
-    <!--Subscribe strats here-->
-    <section id="Subscribe">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="text-center text-white">
-                        <h1 class="h_part_one m-0">News Letter</h1>
-                        <p class="common_font_two">Subscribe to our newsletter</p>
+            <!-- begin of contact-wrapper -->
+            <footer class="wrapper footer-wrapper">
+                <div class="container-fluid">
+                    <div class="col-md-12 text-center">
+                        <div class="footer-social">
+                            <a href="https://www.github.com/devmarufa/" target="_blank">Github</a>
+                            <a href="https://www.facebook.com/devmarufa/" target="_blank">Facebook</a>
+                            <a href="https://www.twitter.com/devmarufa/" target="_blank">Twitter</a>
+                            <a href="https://www.instagram.com/devmarufa/" target="_blank">Instagram</a>
+                        </div>
+                        <p class="footer-copyright">© Copyright 2020</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-7 offset-lg-2 offset-md-2 px-0">
-                    <form action="">
-                        <input class="p_one p_color_one" type="text" placeholder="Your Email">
-                    </form>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-5 col-5 px-0 sub">
-                    <input class="btn background_color p_two text-white" type="submit" value="Subscribe Now">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Subscribe ends here-->
+            </footer>
+            <!-- end of contact-wrapper -->
 
-    <!--footer strats here-->
-    <section id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-12 text-center text_color_two pt-lg-3 pt-md-3 pt-sm-3">
-                    <p class="text">Copyrights 2019 ©<span class="p_color_one">LandIn</span> | Crafted by <span class="p_color_one">Dev Marufa</span></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--footer ends here-->
+            <!-- scroll-to top -->
+            <a class="default-btn scroll-to-top" href="#body"><span class="ti-angle-up "></span></a>
 
-    <!-- jqurey link strats here-->
-    <script type="text/javascript" src="js/jqurey3.5.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
-    <!--jqurey link ends here-->
+        </div>
+        <!-- end of main-content -->
+    </div>
+    <!-- end of main-wrapper -->
+
+    <!-- All JS -->
+    <script src="jquery.js"></script>
+
 </body>
 
 </html>
