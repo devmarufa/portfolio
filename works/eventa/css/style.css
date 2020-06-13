@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg1 {
+    background: #12114a;
+}
+
+.bg2 {
+    background: #fe346e;
+}
+
+.color1 {
+    color: #12114a;
+}
+
+.color2 {
+    color: #fe346e;
+}
+
+.eventa_button {
+    color: #fe346e;
+    background: white;
+    font-size: 17px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 23px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+    transition: all 0.3s;
+}
+
+.eventa_button:hover {
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+    border: 1px solid #fe346e;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section .sec_header {
+    text-align: center;
+    color: #fe346e;
+    font-size: 32px;
+    font-family: 'eventa_font_one_bold', sans-serif;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'eventa_font_one_reg';
+    src: url(../webfonts/Nunito/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'eventa_font_one_semi_bold';
+    src: url(../webfonts/Nunito/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'eventa_font_one_bold';
+    src: url(../webfonts/Nunito/Nunito-Bold.ttf);
+}
+
+
+/* common css */
+
+header .navbar {
+    padding: 0;
+}
+
+header .navbar-nav li a {
+    font-size: 18px;
+    line-height: 90px;
+    font-family: 'eventa_font_one_reg', sans-serif;
+    color: #ffffff;
+    padding: 0 27px !important;
+    position: relative;
+}
+
+header .navbar-nav li a:after {
+    position: absolute;
+    content: '';
+    top: 70%;
+    left: 50%;
+    width: 0%;
+    background: #fe346e;
+    height: 2px;
+    transform: translate(-50%);
+    transition: all 0.2s;
+}
+
+header .navbar-nav li:hover a:after,
+header .navbar-nav li.active a:after {
+    width: 23%;
+}
+
+header .navbar-nav li.active a,
+header .navbar-nav li:hover a {
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+    color: #fe346e;
+}
+
+/* header css ends */
+
+
+#banner {
+    background: url(../img/banner.jpg)no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+#banner .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 17, 74, 0.40);
+    padding: 240px 0 35px;
+}
+
+#banner h1 {
+    font-size: 40px;
+    font-family: 'eventa_font_one_bold', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+#banner h3 {
+    font-size: 32px;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+#banner h3:after {
+    position: absolute;
+    content: '';
+    top: 62px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100px;
+    height: 3px;
+    border-radius: 3px;
+    background: red;
+}
+
+#banner p {
+    font-size: 22px;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+    text-transform: capitalize;
+}
+
+#banner span {
+    font-size: 17px;
+    font-family: 'eventa_font_one_reg', sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+
+#banner i {
+    font-size: 17px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    color: #12114a;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    margin: 165px auto 0;
+}
+
+/* banner ends here */
+
+#speakers {
+    position: relative;
+}
+
+#speakers:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    width: 32%;
+    background: #eaf3ff;
+    height: 2px;
+    transform: translate(-50%);
+}
+
+#speakers .content {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 7px;
+    position: relative;
+    margin-top: 50px;
+}
+
+#speakers .content .overlay {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 17, 74, 0.36);
+    text-align: center;
+    padding: 170px 0 0;
+    opacity: 0;
+    transition: all 0.3s;
+
+}
+
+#speakers .content:hover .overlay {
+    top: 0;
+    opacity: 1;
+}
+
+#speakers .content .overlay p {
+    font-size: 22px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+}
+
+#speakers .content .overlay span {
+    font-size: 14px;
+    display: block;
+    text-transform: capitalize;
+    font-family: 'eventa_font_one_reg', sans-serif;
+}
+
+#speakers .content .overlay i {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 7.5px;
+    border-radius: 50%;
+    color: #fff;
+    background: #12114a;
+    transition: all 0.3s;
+}
+
+#speakers .content .overlay i:hover {
+    background: #fe346e;
+}
+
+/* speakers ends here */
+
+#schedule .content_head {
+    margin-bottom: 50px;
+}
+
+#schedule .content {
+    position: relative;
+}
+
+#schedule .content:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -30px;
+    width: 4px;
+    height: 100%;
+    background: #e6e6f6;
+}
+
+#schedule .content > div {
+    position: relative;
+}
+
+#schedule .content > div:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -36px;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #e6e6f6;
+    transition: all 0.3s;
+}
+
+#schedule .content > div:hover:after {
+    background: #12114a;
+}
+
+#schedule .content_head h4 {
+    font-size: 20px;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+    color: #12114a;
+}
+
+#schedule .content_head h4 span {
+    display: block;
+    font-size: 17px;
+    font-family: 'eventa_font_one_reg', sans-serif;
+    color: #fe346e;
+}
+
+#schedule .content .person {
+    position: relative;
+    margin-bottom: 60px;
+    overflow: hidden;
+    background: url(../img/shedule/shadow.png)no-repeat;
+    background-position: -100% -100%;
+    background-size: 0%;
+}
+
+#schedule .content .person p {
+    position: absolute;
+    font-size: 0px;
+    color: #12114a;
+    font-family: 'eventa_font_one_bold', sans-serif;
+    top: 50%;
+    left: -100px;
+    transform: translate(0, -50%);
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+#schedule .content > div:hover .person p {
+    left: 140px;
+    font-size: 18px;
+}
+
+#schedule .content > div:hover .person {
+    background: url(../img/shedule/shadow.png)no-repeat;
+    background-position: 8% 50%;
+    background-size: 36%;
+}
+
+#schedule .content h4 {
+    font-size: 18px;
+    color: #12114a;
+    font-family: 'eventa_font_one_bold', sans-serif;
+}
+
+#schedule .content span {
+    display: block;
+    font-size: 16px;
+    color: #fe346e;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+    margin: 10px 0 30px;
+}
+
+#schedule .content .break span {
+    margin-bottom: 80px;
+}
+
+#schedule .content p {
+    font-size: 17px;
+    line-height: 32px;
+    color: #707070;
+    font-family: 'eventa_font_one_reg', sans-serif;
+    margin-bottom: 55px;
+}
+
+#schedule .col-lg-4 {
+    padding-left: 66px;
+}
+
+#schedule .sec_header {
+    margin-bottom: 70px;
+}
+
+/* schedule ends here*/
+
+#sponsors {
+    background: url(../img/sponsor_bg.jpg)no-repeat;
+    background-size: cover;
+}
+
+#sponsors .sec_header {
+    margin-bottom: 30px;
+}
+
+#sponsors .slick-prev,
+#sponsors .slick-next {
+    width: inherit;
+    height: inherit;
+}
+
+/* sponsors ends here */
+
+#testimonial .sec_line {
+    font-size: 21px;
+    font-family: 'eventa_font_one_reg', sans-serif;
+    color: #444;
+    margin: 10px 0 60px;
+}
+
+#testimonial .testimonial_main {
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 62px 0px #ffffff40;
+}
+
+#testimonial .testimonial_main:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: calc(100% + 60px);
+    height: calc(100% - 60px);
+    background: #12114a;
+    z-index: -1;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+
+#testimonial .testimonial_details h5 {
+    font-size: 22px;
+    color: #fe346e;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+    margin-top: 50px;
+}
+
+#testimonial .testimonial_details h5 span {
+    display: block;
+    font-size: 15px;
+    margin: 20px 0 40px;
+}
+
+#testimonial .testimonial_details p {
+    font-size: 17px;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+    line-height: 30px;
+    margin-bottom: 35px;
+    padding: 0 85px;
+}
+
+#testimonial .testimonial_details .social i {
+    font-size: 15px;
+    color: #fe346e;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 7px;
+    transition: all 0.3s;
+}
+
+#testimonial .testimonial_details .social i:hover {
+    color: #12114a;
+    background: #fe346e;
+}
+
+#testimonial .testimonial_details img {
+    margin: 30px auto 50px;
+}
+
+#testimonial .testimonial_person .person_image {}
+
+#testimonial .slick-dots {
+    position: absolute;
+    bottom: -105px;
+    left: 50%;
+    transform: translate(-10%, -50%);
+}
+
+#testimonial .slick-dots li {
+    margin: 0;
+}
+
+#testimonial .slick-dots li button::before {
+    width: 12px;
+    height: 12px;
+    background: #12114a;
+    font-size: 0px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#testimonial .slick-dots li.slick-active button::before {
+    width: 8px;
+    height: 8px;
+    background: #fe346e;
+    font-size: 0px;
+    border-radius: 50%;
+    opacity: 1;
+    top: 2.5px;
+}
+
+/* testimonial ends here */
+
+#video {
+    background: url(../img/vid_bg.jpg)no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+#video .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 17, 74, 0.47);
+    padding: 160px 0;
+}
+
+#video i {
+    color: #ffffff;
+    font-size: 80px;
+}
+
+/* video ends here */
+
+#contact .sec_header {
+    margin-bottom: 60px;
+}
+
+#contact .shadow {
+    box-shadow: 0 0 54px 0 rgba(18, 17, 74, 0.17);
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+#contact .social_bg {
+    position: relative;
+    background: url(../img/contact_bg.jpg)no-repeat;
+    background-size: cover;
+}
+
+#contact .social_bg:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -30px;
+    width: 20%;
+    height: 100%;
+    background: white;
+    transform: skew(-5deg) scale(103%);
+}
+
+#contact .social {
+    padding-left: 80px;
+    padding-top: 200px;
+}
+
+#contact .social h5 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+}
+
+#contact .social .social_link {
+    margin-bottom: 30px;
+}
+
+#contact .social .social_link i {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    color: #12114a;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 25px;
+    transition: all 0.3s;
+}
+
+#contact .social .social_link:hover i {
+    background: #fe346e;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+#contact .social .social_link span {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'eventa_font_one_reg', sans-serif;
+}
+
+#contact .form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contact .form p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #12114a;
+    font-family: 'eventa_font_one_reg', sans-serif;
+}
+
+#contact .form input {
+    width: 100%;
+    border: 0;
+    text-align: center;
+    font-size: 17px;
+    color: #12114a;
+    font-family: 'eventa_font_one_reg', sans-serif;
+    border-bottom: 2px solid #ebebeb;
+    line-height: 45px;
+    margin-top: 30px;
+}
+
+#contact .form button {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+    background: #fe346e;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+    border: 0;
+    border-radius: 5px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+/* contact ends here */
+
+footer {
+    border-bottom: 1px solid #fff;
+}
+
+footer p {
+    font-size: 15px;
+    font-family: 'eventa_font_one_semi_bold', sans-serif;
+    line-height: 80px;
+    margin: 0;
+}
+
+/* footer ends here */

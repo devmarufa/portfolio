@@ -1,0 +1,126 @@
+@media (min-width:1200px) {}
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    header .navbar-nav li a {
+        text-align: center;
+        line-height: 50px;
+    }
+
+    header .navbar-nav li a::after {
+        top: 100%;
+    }
+
+    header .navbar-nav li:hover a::after,
+    header .navbar-nav li.active a::after {
+        width: 5%;
+    }
+
+    .testimonial_person {
+        display: none;
+    }
+
+    #testimonial .slick-dots {
+        left: 0;
+        transform: translate(0%, -50%);
+    }
+
+    #contact .social_bg::after {
+        display: none;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    header .navbar-nav li a {
+        text-align: center;
+        line-height: 50px;
+    }
+
+    header .navbar-nav li a::after {
+        top: 100%;
+    }
+
+    #speakers .content {
+        height: auto;
+    }
+
+    #speakers .content .overlay {
+        padding: 100px 0 0;
+    }
+
+    #schedule .content .person {
+        background-size: 0;
+    }
+
+    #schedule .content > div:hover .person {
+        background-size: 19%;
+    }
+
+    .testimonial_person {
+        display: none;
+    }
+
+    #testimonial .slick-dots {
+        left: 0;
+        transform: translate(0%, -50%);
+    }
+
+    #contact .social_bg::after {
+        display: none;
+    }
+
+    #contact .social {
+        padding-top: 100px;
+    }
+
+    #contact .form {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width:0px) and (max-width:575px) {
+    header .navbar-nav li a {
+        text-align: center;
+        line-height: 50px;
+    }
+
+    header .navbar-nav li a::after {
+        top: 100%;
+    }
+
+
+    #testimonial .testimonial_details p {
+        padding: 0;
+    }
+
+    #testimonial .testimonial_main::after {
+        display: none;
+    }
+
+    .testimonial_person {
+        display: none;
+    }
+
+    #testimonial .slick-dots {
+        left: 0;
+        transform: translate(0%, -50%);
+    }
+
+    #contact .social_bg::after {
+        display: none;
+    }
+
+    #contact .social {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    #contact .form {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
