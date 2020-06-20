@@ -30,8 +30,4 @@
         arrows: false,
         asNavFor: '.slider-nav'
     });
-
-
-
-
 })(jQuery); //end of use strict
