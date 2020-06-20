@@ -2,7 +2,10 @@
     "use strict"; // starts of use strict
 
     // slider js starts here
-
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
 
     $('.one-time').slick({
         dots: false,
