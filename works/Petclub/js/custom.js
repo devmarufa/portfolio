@@ -2,13 +2,13 @@
     "use strict"; // starts of use strict
     // counter js strats here
     $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
+        delay: 10,
+        time: 1000
+    });
     // counter js ends here
 
     // slider js starts here
-    $('.one-time').slick({
+    $('.initiative_slider').slick({
         dots: false,
         arrows: true,
         infinite: true,
@@ -17,17 +17,19 @@
     });
 
     // slider js ends here
-    $('.slider-nav').slick({
+    $('.test_slide_one').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        asNavFor: '.slider-for',
+        asNavFor: '.test_slide_two',
         dots: false,
         arrows: true
     });
-    $('.slider-for').slick({
+    $('.test_slide_two').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        asNavFor: '.slider-nav'
+        asNavFor: '.test_slide_one'
     });
+
+
 })(jQuery); //end of use strict
